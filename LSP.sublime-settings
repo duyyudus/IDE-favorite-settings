@@ -1,0 +1,55 @@
+{
+	"auto_show_diagnostics_panel_level": 2,
+	"clients":
+	{
+		"javascript-typescript-langserver":
+		{
+			"enabled": true
+		},
+		"pyls":
+		{
+			"command":
+			[
+				"~/miniconda3/bin/pyls"
+			],
+			"enabled": false,
+			"settings":
+			{
+				"pyls":
+				{
+					"plugins":
+					{
+						"pyflakes":
+						{
+							"enabled": false
+						},
+						"pycodestyle":
+						{
+							"enabled": false
+						},
+						"pylint":
+						{
+							"enabled": false
+						},
+						"mccabe":
+						{
+							"enabled": false
+						}
+					}
+				}
+			}
+		},
+		"rls":
+		{
+			"command":
+			[
+				"rustup",
+				"run",
+				"stable",
+				"rls"
+			],
+			"enabled": true
+		}
+	},
+	"only_show_lsp_completions": true
+}
