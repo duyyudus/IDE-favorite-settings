@@ -1,0 +1,13 @@
+{
+    "python.pythonPath": "/home/duyyudus/anaconda3/bin/python",
+    "workbench.colorTheme": "Gruvbox Dark (Soft)",
+    "window.zoomLevel": 1,
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.fontSize": 12,
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#75695b",
+        "editor.selectionHighlightBackground": "#75695b"
+    }
+}
