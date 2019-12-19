@@ -1,10 +1,10 @@
 {
     "python.pythonPath": "/home/duyyudus/miniconda3/bin/python",
     "workbench.colorTheme": "Gruvbox Dark (Soft)",
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
-    "editor.fontSize": 12,
+    "editor.fontSize": 14,
     "workbench.colorCustomizations": {
         "editor.selectionBackground": "#857767",
         "editor.selectionHighlightBackground": "#52483e"
