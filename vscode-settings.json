@@ -1,16 +1,35 @@
 {
-    "python.pythonPath": "/home/duyyudus/miniconda3/bin/python",
+    "python.pythonPath": "venv/bin/python",
     "workbench.colorTheme": "Gruvbox Dark (Soft)",
     "window.zoomLevel": 0,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
-    "editor.fontSize": 14,
+    "editor.fontSize": 16,
     "workbench.colorCustomizations": {
         "editor.selectionBackground": "#857767",
         "editor.selectionHighlightBackground": "#52483e"
     },
+    "editor.tokenColorCustomizations": {
+        "[Gruvbox Dark (Soft)]": {
+            "comments": "#7e7165",
+            "textMateRules": [
+                {
+                    "scope": "meta.function-call",
+                    "settings": {
+                        "foreground": "#8EC07C"
+                    }
+                },
+                {
+                    "scope": "variable.parameter",
+                    "settings": {
+                        "foreground": "#c0ac95"
+                    }
+                }
+            ]
+        }
+    },
     "workbench.startupEditor": "newUntitledFile",
-    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontSize": 14,
     "python.formatting.provider": "black",
     "python.formatting.blackArgs": [
         "--line-length=100",
@@ -20,13 +39,15 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.python"
     },
-	// Configure glob patterns for excluding files and folders. For example, the files explorer decides which files and folders to show or hide based on this setting. Read more about glob patterns [here](https://code.visualstudio.com/docs/editor/codebasics#_advanced-search-options).
-	"files.exclude": {
-		"**/.git": true,
-		"**/.svn": true,
-		"**/.hg": true,
-		"**/CVS": true,
+    // Configure glob patterns for excluding files and folders. For example, the files explorer decides which files and folders to show or hide based on this setting. Read more about glob patterns [here](https://code.visualstudio.com/docs/editor/codebasics#_advanced-search-options).
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
         "**/.DS_Store": true,
-        "**/__pycache__": true
-	},
+        "**/__pycache__": true,
+        "venv*": true,
+        "**/*.pyc": true
+    },
 }
